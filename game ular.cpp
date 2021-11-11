@@ -214,7 +214,7 @@ int main() //fungsi Utama
    }
    Sleep(40 - (nEkor / 10)); //delay yang semakin cepat dengan penambahan ekor
   }
- system("cls"); //layar dibersihkan
+ system("cls"); 
  gotoxy(32,12); cout << "Skor : " << (nEkor - 5) * 10; //ditampilkan skor
  gotoxy(25,13);
  system("pause"); //selesai
