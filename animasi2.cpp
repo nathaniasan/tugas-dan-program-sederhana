@@ -21,6 +21,7 @@ int main(){
 	
 }
 
+// untuk kucing kedap kedip
 //	cout << "kucing";
 //	Sleep(5000);
 //	system("cls");
