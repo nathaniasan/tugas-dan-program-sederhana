@@ -16,7 +16,7 @@ int main(){
 	
 	
 	
-	animasi("nathaniasantanigelsimbolon");
+	animasi("namamu");
 	
 	
 }
