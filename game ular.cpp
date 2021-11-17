@@ -217,5 +217,7 @@ int main() //fungsi Utama
  system("cls"); 
  gotoxy(32,12); cout << "Skor : " << (nEkor - 5) * 10; //ditampilkan skor
  gotoxy(25,13);
+ 
+   
  system("pause"); //selesai
 }
