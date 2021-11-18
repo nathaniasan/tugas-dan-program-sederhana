@@ -29,7 +29,8 @@ html{
   
   nav{
     margin-top: 6%;
-    border-top: 1px solid white;
+    border-top: 1px solid white
+        ;
   }
    .pink{
      background-color: #b62b52;
