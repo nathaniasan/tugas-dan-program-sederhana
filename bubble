@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+void swap(){
+	int temp;
+	int kiri, kanan;
+	kiri = kanan;
+	kanan = temp;
+	temp = kiri;
+	
+}
+
+int main ( ){
+	
+	int angka[6]= {7,10,3,4,4,8};
+	bool tukar;
+	int index = 5;
+	
+	while(tukar==false) {
+		for(int i=0;i< index;i++){
+			if(angka[i]> angka[i+1]){
+			
+		int temp = angka[i];
+				angka[i] = angka[i+1];
+				angka[i+1] = temp;
+			tukar=true;
+			}
+		} index--;
+
+
+	for(int j=0; j< 6; j++){
+		cout<< angka[j]<< "  ";
+	}
+}}
