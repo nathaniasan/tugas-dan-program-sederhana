@@ -5,7 +5,8 @@
 
 using namespace std;
 
-#define ppn 0.10 //PPN = 10%
+#define ppn 0.10 
+//PPN = 10%
 const int diskon = 25000;
 
 int main(){
@@ -95,8 +96,8 @@ int main(){
 		};
 		
 		kembalian=bayar-total;
-		cout << "Uang yang anda bayar \t\t\t Rp. " << bayar<<endl;
-		cout << "Uang kembalian \t\t\t\t Rp. "     << kembalian <<endl;
+		cout << "Uang yang anda bayar \n\n\n Rp. " << bayar<<endl;
+		cout << "Uang kembalian \n\n\n\n Rp. "     << kembalian <<endl;
 		cout << "##################################################"<<endl;
 		
 		ulang:
@@ -109,3 +110,4 @@ int main(){
 		
 		return 0;
 	}
+//Nathania 
