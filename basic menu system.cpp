@@ -5,7 +5,7 @@ using namespace std;
 int main (){
 	
 	initscr();
-	noecho();
+	noecho(); //menahan program sementara
 	cbreak();
 	
 	int ymax, xmax;
@@ -31,7 +31,7 @@ int main (){
 			    wattroff (menuwin, A_REVERSE);
 }
 	
-	choice= wgetch	(menuwin);
+	choice= wgetch(menuwin);
 	
 	switch(choice){
 		case KEY_UP:
