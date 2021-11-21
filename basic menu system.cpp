@@ -32,6 +32,7 @@ int main (){
 }
 	
 	choice= wgetch(menuwin);
+		refresh();
 	
 	switch(choice){
 		case KEY_UP:
@@ -52,7 +53,7 @@ int main (){
 	}
 	if (choice==10)
 	break;
-		
+	refresh();	
 	}
 	
 	
