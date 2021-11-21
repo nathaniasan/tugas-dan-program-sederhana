@@ -16,7 +16,7 @@ int main (){
 	y=x=5;
 	
 	WINDOW * halo = newwin(h,w,x,y);
-	refresh();
+	wrefresh();
 	
 	box (halo, 0,0)	;
 	
