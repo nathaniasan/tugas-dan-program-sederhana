@@ -9,7 +9,7 @@ using namespace std;
 int main() {
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
     
-    
+  
     int a, b;
     cin>>a;
     
@@ -22,20 +22,12 @@ int main() {
 }                                 
                 cout << endl;
 }        
-     
         
     }
     
     else {
         cout << "Bilangan tidak sesuai!";
     }
-    
-    
-    
-    
-    
-    
-    
     
     
     
