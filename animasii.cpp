@@ -14,7 +14,7 @@ void animasi(char kata [1000]){
 
 int main(){
 	
-	animasi("nathaniasantanigelsimbolon");
+	animasi("LUCUUUU");
 	
 	
 }
